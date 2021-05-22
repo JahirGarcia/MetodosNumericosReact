@@ -1,0 +1,17 @@
+@import "styles/variables";
+
+.Card {
+  background-color: $neutral-1;
+  border: $divider-border;
+  border-radius: $border-radius;
+
+  .Card__head,
+  .Card__body,
+  .Card__footer {
+    padding: 1.5rem 1rem;
+  }
+
+  .Card__head {
+    // box-shadow: inset -1px 0px 0px #F0F0F0, inset 0px 1px 0px #F0F0F0, inset 1px 0px 0px #F0F0F0;
+  }
+}

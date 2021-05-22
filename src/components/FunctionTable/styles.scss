@@ -1,0 +1,22 @@
+@import "styles/variables";
+
+.FunctionTable {
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+
+  .FunctionTable__row {
+    border-bottom: $divider-border;
+  }
+
+  .FunctionTable__vertical-header {
+    font-weight: $font-weight-bold;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .FunctionTable__cell {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+}

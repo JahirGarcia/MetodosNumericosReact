@@ -1,0 +1,10 @@
+@import "styles/variables";
+
+.Button {
+  padding: 0.25rem 1rem;
+  max-height: $input-height;
+
+  // animation-delay: 1ms;
+  // animation-timing-function: cubic-bezier(Ease Out);
+  // animation-duration: 600ms;
+}

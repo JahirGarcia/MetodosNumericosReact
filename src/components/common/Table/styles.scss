@@ -1,0 +1,15 @@
+@import "styles/variables";
+
+.Table {
+  width: 100%;
+
+  .Table__cell {
+    border-bottom: $divider-border;
+    padding: .5625rem 1rem;
+  }
+
+  thead .Table__cell {
+    background-color: $neutral-2;
+    font-weight: $font-weight-bold;
+  }
+}

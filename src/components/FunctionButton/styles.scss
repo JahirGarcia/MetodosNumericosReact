@@ -1,0 +1,18 @@
+@import "styles/variables";
+
+.FunctionButton {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  font-style: italic;
+  font-weight: $font-weight-bold;
+  width: 48px;
+
+  &:not(:disabled):hover, 
+  &:not(:disabled):focus {
+    background-color: $neutral-5;
+  }
+  &:not(:disabled):focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 4px rgba($neutral-5, .3);
+  }
+}

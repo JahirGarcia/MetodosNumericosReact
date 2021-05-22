@@ -1,0 +1,8 @@
+.TextArea {
+  cursor: text;
+  width: 100%;
+
+  &:focus {
+    outline: 0;
+  }
+}

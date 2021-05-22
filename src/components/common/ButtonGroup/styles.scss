@@ -1,0 +1,8 @@
+.ButtonGroup {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  .Button + .Button {
+    margin-left: .5rem;
+  }
+}

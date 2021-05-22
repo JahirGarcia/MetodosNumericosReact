@@ -1,0 +1,16 @@
+@import "styles/variables";
+
+.Select {
+  padding: .3125rem .75rem;
+  width: 100%;
+  max-height: $input-height;
+
+  &,
+  .Select__option {
+    background-color: $neutral-1;
+  }
+
+  &:not(:disabled):focus {
+    outline: 0;
+  }
+}

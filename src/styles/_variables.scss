@@ -1,0 +1,126 @@
+$gray-600: #6c757d;
+$blue: #0d6efd;
+$primary: $blue;
+$spacer: 1rem;
+$text-muted: $gray-600;
+
+// Color Pallete
+// Blue
+$blue-5: #40A9FF;
+$blue-6: #1890FF;
+$blue-7: #096DD9;
+
+// Neutral
+$neutral-1: #FFFFFF;
+$neutral-2: #FAFAFA;
+$neutral-3: #F5F5F5;
+$neutral-4: #F0F0F0;
+$neutral-5: #D9D9D9;
+$neutral-13: #000000;
+
+// Text Color
+$text-primary-inverse: $neutral-1;
+$text-primary-85: rgba($neutral-13, .85);
+$text-primary-45: rgba($neutral-13, .45);
+$text-primary-25: rgba($neutral-13, .25);
+
+// Border
+$border-width: 1px;
+$border-radius: 2px;
+
+// Divider
+$divider-border: $border-width solid rgba($neutral-13, .06);
+
+// Font //
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+$font-family-base: $font-family-sans-serif;
+$font-family-code: $font-family-monospace;
+
+$font-size-root: null;
+$font-size-base: .875rem; // Assumes the browser default, typically `16px`
+
+$font-weight-normal: normal;
+$font-weight-bold: 500;
+$font-weight-bolder: 700;
+$font-weight-base: $font-weight-normal;
+
+// Line Height //
+$line-height-base: 158%;
+
+// Body //
+$body-bg: #F0F2F5;
+$body-color: $text-primary-85;
+$body-text-align: null;
+
+// Anchors
+$link-color: $primary;
+$link-decoration: underline;
+$link-shade-percentage: 20%;
+$link-hover-color: shift-color($link-color, $link-shade-percentage);
+$link-hover-decoration: null;
+
+// Paragraph
+$paragraph-margin-bottom: 1rem;
+
+// Heading
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+$headings-margin-bottom: $spacer / 2;
+$headings-font-family: null;
+$headings-font-style: null;
+$headings-font-weight: 500;
+$headings-line-height: 1.2;
+$headings-color: null;
+
+// Small //
+$small-font-size: .75rem;
+
+// Sub & Sup //
+$sub-sup-font-size: .625rem;
+
+// HR
+$hr-margin-y: $spacer;
+$hr-color: inherit;
+$hr-height: $border-width;
+$hr-opacity: .25;
+
+// Legend //
+$legend-margin-bottom: .5rem;
+$legend-font-size: 1.5rem;
+$legend-font-weight: null;
+
+// Mark //
+$mark-padding: .2em;
+$mark-bg: #FCF8E3;
+
+// DT //
+$dt-font-weight: $font-weight-bold;
+
+// Caption
+$table-cell-padding-y: .5rem;
+$table-th-font-weight: null;
+$table-caption-color: $text-muted;
+
+// Code //
+$code-font-size: $font-size-base;
+$code-color: #C4C4C4;
+
+// KDB //
+$kbd-padding-y: .2rem;
+$kbd-padding-x: .4rem;
+$kbd-font-size: $code-font-size;
+$kbd-color: $text-primary-inverse;
+$kbd-bg: $text-primary-85;
+$nested-kbd-font-weight: $font-weight-bold;
+
+// Pre //
+$pre-color: null;
+
+// Input 
+$input-height: 32px;

@@ -1,0 +1,22 @@
+.Raices {
+
+
+  .Raices__container {
+    display: flex;
+    width: 100%;
+  }
+
+  .Raices__main,
+  .Raices__aside {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .Raices__main {
+    flex: 0 0 60%;
+  }
+
+  .Raices__aside {
+    flex: 0 0 40%;
+  }
+}
