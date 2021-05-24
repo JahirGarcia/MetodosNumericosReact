@@ -5,7 +5,13 @@ import './styles.scss';
 const ExpressionEditor = forwardRef((props, ref) => {
 
   return (
-    <TextArea ref={ ref } className="ExpressionEditor" rows="10" { ...props } />
+    <TextArea ref={ ref } 
+      className="ExpressionEditor" 
+      rows="10" 
+      autoCorrect="false" 
+      autoCapitalize="false" 
+      spellCheck="false" 
+      { ...props } />
   );
 });
 
