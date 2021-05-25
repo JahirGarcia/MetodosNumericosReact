@@ -7,6 +7,7 @@ import FunctionTable from 'components/FunctionTable';
 import MethodSwitcher from 'components/MethodSwitcher';
 import ModeSwitcher from 'components/ModeSwitcher';
 import React, { useRef, useState } from 'react';
+import { biseccion } from 'utils/calc/raices';
 import './styles.scss';
 
 function Raices() {
@@ -25,6 +26,11 @@ function Raices() {
   const handleClickCleanButton = () => {
     setExpression('');
     expressionEditorRef.current.focus();
+  }
+
+  const handleClickExecuteButton = () => {
+    const rest = biseccion(expression, -0.5, 1, 0.00000001);
+    console.log(rest.toString());
   }
 
   return (
@@ -64,7 +70,7 @@ function Raices() {
             <ExpressionEditor ref={ expressionEditorRef } value={ expression } onChange={ handleChangeExpressionEditor } />
             
             <ButtonGroup>
-              <PrimaryButton>Ejecutar</PrimaryButton>
+              <PrimaryButton onClick={ handleClickExecuteButton } >Ejecutar</PrimaryButton>
               <SecondaryButton onClick={ handleClickCleanButton } >Limpiar</SecondaryButton>
             </ButtonGroup>
           </Card>

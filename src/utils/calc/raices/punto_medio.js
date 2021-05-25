@@ -2,8 +2,8 @@ import { add, bignumber, divide, subtract } from "../math";
 
 /**
  * Calcula el punto medio de un intervalo.
- * @param {string | number} extremoInferior Extremo inferior del intervalo.
- * @param {string | number} extremoSuperior Extremo superior del intervalo.
+ * @param {string | number | BigNumber } extremoInferior Extremo inferior del intervalo.
+ * @param {string | number | BigNumber } extremoSuperior Extremo superior del intervalo.
  * @returns Punto medio del intervalo.
  */
 function puntoMedio(extremoInferior, extremoSuperior) {
